@@ -5,6 +5,7 @@
   "keywords": [
     "jstransformer"
   ],
+  "license": "MIT",
   "dependencies": {
     "eco": "~1.1.0-rc-2"
   },
@@ -17,6 +18,11 @@
     "coverage": "istanbul cover test",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-eco.git"
