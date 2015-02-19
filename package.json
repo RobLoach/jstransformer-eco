@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-eco",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transform ECO template into HTML.",
   "keywords": [
     "jstransformer"
