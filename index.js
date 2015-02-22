@@ -3,5 +3,5 @@
 var eco = require('eco');
 
 exports.name = 'eco';
-exports.outputFormat = 'xml';
+exports.outputFormat = 'html';
 exports.compile = eco;
