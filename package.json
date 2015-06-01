@@ -1,28 +1,23 @@
 {
   "name": "jstransformer-eco",
-  "version": "0.0.2",
-  "description": "Transform ECO template into HTML.",
+  "version": "0.1.0",
+  "description": "Eco support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
-  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "eco": "~1.1.0-rc-2"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-eco.git"
