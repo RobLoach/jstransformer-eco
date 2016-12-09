@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-var eco = require('eco');
+var eco = require('eco')
 
-exports.name = 'eco';
-exports.outputFormat = 'html';
-exports.compile = eco;
+exports.name = 'eco'
+exports.outputFormat = 'html'
+exports.compile = eco
