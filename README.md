@@ -1,5 +1,7 @@
 # jstransformer-eco
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-eco.svg)](https://greenkeeper.io/)
+
 [Eco](http://npm.im/eco) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-eco/master.svg)](https://travis-ci.org/jstransformers/jstransformer-eco)
