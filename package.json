@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "eco": "~1.1.0-rc-2"
+  },
   "name": "jstransformer-eco",
   "version": "0.1.0",
   "description": "ECO support for JSTransformers.",
@@ -8,12 +11,9 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "eco": "~1.1.0-rc-2"
-  },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
